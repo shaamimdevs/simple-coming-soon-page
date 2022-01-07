@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    max-width: 850px;
+    text-align: center;
+    margin: auto;
+}
+
+.center h1 {
+    font-family: monospace;
+    color: cadetblue;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-family: monospace;
+    font-weight: 600;
+    margin: 11px;
+    letter-spacing: 2px;
+
+}
+
+.contact a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    background-color: cadetblue;
+    font-family: monospace;
+    font-size: medium;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.contact a:hover {
+    color: #ebebeb;
+    text-decoration: underline;
+}
